@@ -1,0 +1,7 @@
+﻿l_english:
+ trait_fvp_flat: "Flat"
+ trait_fvp_flat_desc: "Fills a man's heart"
+ trait_fvp_flat_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] fills a man's heart"
+ trait_fvp_plot: "Plot"
+ trait_fvp_plot_desc: "Fills a man's hand"
+ trait_fvp_plot_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] fills a man's hand"

@@ -1,0 +1,73 @@
+﻿fvp_plot = {
+	index = 350
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = {
+						exists = this
+					}
+				}
+				desc = trait_fvp_plot_desc
+			}
+			desc = trait_fvp_plot_character_desc
+		}
+	}
+	genetic = yes
+	same_opinion = -10
+	fertility = 0.25
+	birth = 1
+	valid_sex = female
+	physical = yes
+	random_creation = 1
+	good = yes
+	opposites = {
+		fvp_flat
+	}
+	opposite_opinion = -25
+	diplomacy = 4
+	martial = 1
+	stewardship = 3
+	intrigue = -5
+	learning = -3
+	prowess = 5
+}
+
+fvp_flat = {
+	index = 351
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = {
+						exists = this
+					}
+				}
+				desc = trait_fvp_flat_desc
+			}
+			desc = trait_fvp_flat_character_desc
+		}
+	}
+	genetic = yes
+	same_opinion = 25
+	fertility = 0
+	birth = 1
+	valid_sex = female
+	physical = yes
+	random_creation = 1
+	good = yes
+	opposites = {
+		fvp_plot
+	}
+	opposite_opinion = -25
+	diplomacy = -2
+	martial = 3
+	stewardship = 1
+	intrigue = 5
+	learning = 5
+	prowess = -5
+}
+
+
